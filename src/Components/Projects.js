@@ -6,13 +6,14 @@ import eatTheBurger from "../Assets/Images/Eat-The-Burger.png";
 import budgetTracker from "../Assets/Images/budget-tracker.png";
 import employeeDirectory from "../Assets/Images/employee-directory.png";
 import fitnessTracker from "../Assets/Images/Fitness-Tracker.png";
+import "./Projects.css";
 
 function Projects() {
   return (
     <>
     <body className="body">
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={friendsNightIn} />
           <Card.Body>
             <Card.Title>Friends Night In</Card.Title>
@@ -46,7 +47,7 @@ function Projects() {
       </div>
       <br></br>
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={workoutWeekly} />
           <Card.Body>
             <Card.Title>Workout Weekly</Card.Title>
@@ -81,7 +82,7 @@ function Projects() {
       </div>
       <br></br>
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={eatTheBurger} />
           <Card.Body>
             <Card.Title>Eat the Burger</Card.Title>
@@ -115,7 +116,7 @@ function Projects() {
       </div>
       <br></br>
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={budgetTracker} />
           <Card.Body>
             <Card.Title>PWA Budget Tracker</Card.Title>
@@ -147,7 +148,7 @@ function Projects() {
       </div>
       <br></br>
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={employeeDirectory} />
           <Card.Body>
             <Card.Title>React Employee Directory</Card.Title>
@@ -178,7 +179,7 @@ function Projects() {
       </div>
       <br></br>
       <div className="projectdiv">
-        <Card style={{ width: "18rem" }}>
+        <Card className="projectCard" style={{ width: "50rem" }}>
           <Card.Img variant="top" src={fitnessTracker} />
           <Card.Body>
             <Card.Title>Fitness Tracker</Card.Title>
