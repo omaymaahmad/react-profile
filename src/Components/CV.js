@@ -4,11 +4,12 @@ import { GrCloudDownload } from "react-icons/gr";
 import cv from "../Assets/Omayma-Ahmad-Resume.pdf";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import "./CV.css";
 
 function CV() {
   return (
     <>
-      <body>
+      <body >
         <Jumbotron fluid>
           <Container className="cvContainer">
             <h1>CV & other links</h1>
@@ -23,7 +24,7 @@ function CV() {
             </p>
             <br></br>
             <p>
-              <Button variant="info">
+              <Button variant="secondary">
                 <AiFillLinkedin />{" "}
                 <a href="https://www.linkedin.com/in/omayma-ahmad-14922a1b8/">
                   LinkedIn
@@ -32,13 +33,14 @@ function CV() {
             </p>
             <br></br>
             <p>
-              <Button variant="info">
+              <Button variant="secondary">
                 <AiFillGithub />{" "}
                 <a href="https://github.com/omaymaahmad">
                   GitHub
                 </a>
               </Button>
             </p>
+            <br></br>
           </Container>
         </Jumbotron>
       </body>
