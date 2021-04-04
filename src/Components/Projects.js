@@ -5,10 +5,12 @@ import workoutWeekly from "../Assets/Images/Workout-Weekly.png";
 import eatTheBurger from "../Assets/Images/Eat-The-Burger.png";
 import budgetTracker from "../Assets/Images/budget-tracker.png";
 import employeeDirectory from "../Assets/Images/employee-directory.png";
+import fitnessTracker from "../Assets/Images/Fitness-Tracker.png";
 
 function Projects() {
   return (
     <>
+    <body className="body">
       <div className="projectdiv">
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={friendsNightIn} />
@@ -42,6 +44,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+      <br></br>
       <div className="projectdiv">
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={workoutWeekly} />
@@ -76,6 +79,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+      <br></br>
       <div className="projectdiv">
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={eatTheBurger} />
@@ -109,6 +113,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+      <br></br>
       <div className="projectdiv">
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={budgetTracker} />
@@ -140,6 +145,7 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+      <br></br>
       <div className="projectdiv">
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={employeeDirectory} />
@@ -170,6 +176,40 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+      <br></br>
+      <div className="projectdiv">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={fitnessTracker} />
+          <Card.Body>
+            <Card.Title>Fitness Tracker</Card.Title>
+            <Card.Text>
+              Workout Tracker is a fitness application that lets users view and
+              track daily workouts. Users are able to log multiple exercises in
+              a workout on a given day. They are also able to track the name,
+              type, weight, reps, and duration of exercise. For cardio based
+              exercise the distance traveled can be logged. All workouts are
+              stored in a database. Click
+              <a
+                href="https://fitness-tracker-omayma.herokuapp.com/"
+                target="_blank"
+              >
+                {" "}
+                here
+              </a>{" "}
+              to view the site and{" "}
+              <a
+                href="https://github.com/omaymaahmad/week-17-workout-tracker"
+                target="_blank"
+              >
+                {" "}
+                here
+              </a>{" "}
+              for the GitHub repository.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+      </body>
     </>
   );
 }
