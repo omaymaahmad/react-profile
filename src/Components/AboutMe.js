@@ -18,8 +18,8 @@ function AboutMe () {
     />
     </div>
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>omayma ahmad</h3>
+      <p>aspiring software engineer</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -31,8 +31,8 @@ function AboutMe () {
     />
 </div>
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>about me</h3>
+      <p>Learning how to code at the University of Manchester Coding Bootcamp! So far I have gained skills in: JavaScript, React, Node, Express, MongoDB, Mongoose, HTML, CSS, BootStrap and Bulma.</p>
     </Carousel.Caption>
   </Carousel.Item>
 
