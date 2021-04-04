@@ -1,9 +1,10 @@
 import React from "react";
 import { Button, Jumbotron, Container } from "react-bootstrap";
-import { GrCloudDownload } from "react-icons/gr";
+import { MdCloudDownload } from "react-icons/md";
 import cv from "../Assets/Omayma-Ahmad-Resume.pdf";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import "./CV.css";
 
 function CV() {
@@ -16,7 +17,7 @@ function CV() {
             <p>For any further information use the buttons below.</p>
             <p>
               <Button variant="secondary">
-                <GrCloudDownload />{" "}
+                <MdCloudDownload />{" "}
                 <a href={cv} download>
                   Download CV
                 </a>
@@ -37,6 +38,15 @@ function CV() {
                 <AiFillGithub />{" "}
                 <a href="https://github.com/omaymaahmad">
                   GitHub
+                </a>
+              </Button>
+            </p>
+            <br></br>
+            <p>
+              <Button variant="secondary">
+                <MdEmail />{" "}
+                <a href="mailto:omayma.ahmad25@gmail.com">
+                  Email
                 </a>
               </Button>
             </p>
