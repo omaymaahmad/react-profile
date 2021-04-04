@@ -2,7 +2,6 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import salford from "../Assets/Images/IMG_1644.jpg";
 import me from "../Assets/Images/IMG_0880.jpeg";
-import newyork from "../Assets/Images/IMG_0306.jpg";
 import "./AboutMe.css";
 
 function AboutMe () {
