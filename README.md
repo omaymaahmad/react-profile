@@ -14,7 +14,7 @@ Repository for my portfolio made with React.js.
 
 * [GitHub repository](https://github.com/omaymaahmad/react-profile) 
 
-* [Deployed Link]() 
+* [Deployed Link](https://omaymaahmad.github.io/react-profile) 
 
 * [My GitHub](https://github.com/omaymaahmad)  
 
@@ -24,4 +24,4 @@ Repository for my portfolio made with React.js.
 
 ## Screenshot of Application
 
-![React-Portfolio]()
+![React-Portfolio](./src/Assets/Images/deployed-site.png)

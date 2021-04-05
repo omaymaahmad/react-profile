@@ -30,7 +30,9 @@ function AboutMe() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
+       
       </Carousel>
+       <br></br>
     </>
   );
 }
