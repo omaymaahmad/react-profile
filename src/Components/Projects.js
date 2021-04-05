@@ -27,7 +27,7 @@ function Projects() {
               site is responsive to desktop, mobile and tablet devices. Click
               <a
                 href="https://omaymaahmad.github.io/friends-night-in/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -35,7 +35,7 @@ function Projects() {
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/friends-night-in"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -63,14 +63,14 @@ function Projects() {
               TDD with Jest.js, ESLint/Travis CI, Moment.js, Passport/Bcrypt,
               Axios & CSS, the site is responsive to desktop, mobile and tablet
               devices. Click
-              <a href="https://workout-weekly.herokuapp.com/" target="_blank">
+              <a href="https://workout-weekly.herokuapp.com/" target="_blank" rel="noreferrer">
                 {" "}
                 here
               </a>{" "}
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/project-2"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -96,7 +96,7 @@ function Projects() {
               database, whether devoured or not! Click
               <a
                 href="https://eat-the-burger-hwtask.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -104,7 +104,7 @@ function Projects() {
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/week-13-eat-the-burger"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -128,7 +128,7 @@ function Projects() {
               Click
               <a
                 href="https://pw-budget-tracker.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -136,7 +136,7 @@ function Projects() {
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/week-18-pwa-budget-tracker"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -159,7 +159,7 @@ function Projects() {
               employee by their name. Click
               <a
                 href="https://omaymaahmad.github.io/week-19-react-employee-directory/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -167,7 +167,7 @@ function Projects() {
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/week-19-react-employee-directory"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -192,7 +192,7 @@ function Projects() {
               stored in a database. Click
               <a
                 href="https://fitness-tracker-omayma.herokuapp.com/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
@@ -200,7 +200,7 @@ function Projects() {
               to view the site and{" "}
               <a
                 href="https://github.com/omaymaahmad/week-17-workout-tracker"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 here
