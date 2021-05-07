@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Jumbotron, Container } from "react-bootstrap";
 import { MdCloudDownload } from "react-icons/md";
-import cv from "../Assets/Omayma-Ahmad-Resume.pdf";
+import cv from "../Assets/Omayma-Ahmad-CV.pdf";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
@@ -10,7 +10,7 @@ import "./CV.css";
 function CV() {
   return (
     <>
-      <body >
+      <body>
         <Jumbotron fluid>
           <Container className="cvContainer">
             <h1>CV & other links</h1>
@@ -36,18 +36,13 @@ function CV() {
             <p>
               <Button variant="secondary">
                 <AiFillGithub />{" "}
-                <a href="https://github.com/omaymaahmad">
-                  GitHub
-                </a>
+                <a href="https://github.com/omaymaahmad">GitHub</a>
               </Button>
             </p>
             <br></br>
             <p>
               <Button variant="secondary">
-                <MdEmail />{" "}
-                <a href="mailto:omayma.ahmad25@gmail.com">
-                  Email
-                </a>
+                <MdEmail /> <a href="mailto:omayma.ahmad25@gmail.com">Email</a>
               </Button>
             </p>
             <br></br>
